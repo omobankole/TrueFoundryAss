@@ -1,0 +1,38 @@
+.main label {
+  position: relative;
+}
+.main label input {
+  width: 250px;
+  height: 32px;
+  border: 1px solid hsla(0, 0%, 100%, 0.25);
+  border-radius: 3px;
+  background-color: hsla(0, 0%, 100%, 0.3);
+  color: #fff;
+  outline: none;
+  padding: 0 0.5rem 0 1.5rem;
+  margin-right: 10px;
+}
+.main label input:focus {
+  background-color: #fff;
+  color: #000;
+}
+.main label inpuT::placeholder {
+  color: #fff;
+}
+.main label input:focus::placeholder {
+  color: #000;
+}
+
+.main label img {
+  width: 15px;
+  height: 15px;
+  filter: brightness(0) invert(1);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  z-index: 55;
+}
+.main label input:focus ~ .main label img {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(330deg) brightness(102%)
+    contrast(102%);
+}

@@ -1,0 +1,19 @@
+.main {
+  padding: 8px;
+  border-radius: 3px;
+}
+.main p {
+  background-image: url(../../../asset/images/logo.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 75px;
+  height: 15px;
+  cursor: pointer;
+  margin: 0;
+}
+.main:hover{
+    background-color: hsla(0,0%,100%,.2);
+}
+.main:hover p{
+    background-image: url(../../../asset/images/logo-gif.gif);
+}

@@ -1,0 +1,45 @@
+.main {
+  background-color: #004269;
+  height: 44px;
+  padding: 6px 4px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.leftContent {
+  display: flex;
+  align-items: center;
+}
+
+.Btn {
+  display: block;
+  background-color: transparent;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  cursor: pointer;
+  color: #fff;
+  padding: 5px 10px;
+}
+.Btn:hover {
+  background-color: hsla(0, 0%, 100%, 0.2);
+}
+.Btn img{
+    width: 20px;
+    height: 20px;
+}
+.avatar{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-left: 8px;
+    font-weight: bold;
+}

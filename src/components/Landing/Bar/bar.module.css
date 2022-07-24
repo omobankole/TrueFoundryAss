@@ -1,0 +1,43 @@
+.main {
+  width: 100%;
+  min-height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #f4f5f7;
+  padding: 8px;
+}
+.main div {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+.main div img{
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+.main p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #172b4d;
+}
+.main a {
+  font-size: 14px;
+  color: #6b778c;
+  font-weight: 400;
+  text-decoration: underline;
+  margin: 0 0 0 10px;
+}
+.main button {
+  background: transparent;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: #42526e;
+  font-weight: bold;
+}
